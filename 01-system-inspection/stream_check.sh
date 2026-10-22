@@ -9,7 +9,7 @@ echo "[ERROR] Simulated warning or error condition occurred" >&2
 # 3. Check the exit code fo the last command
 echo "[DEBUG] Previous echo exit code was: $?"
 
-$ 4. Attempt to list a non-existing file/directory
+# 4. Attempt to list a non-existing file/directory
 ls /non_existent_directory_for_test 2>/dev/null
 CHECK_EXIT=$?
 
