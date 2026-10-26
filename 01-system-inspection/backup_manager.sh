@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -u
+
 #===========================
 # Name: The Deployment Backup Manager
 # Descirption: Creating backups for critical directories or files before deployment
