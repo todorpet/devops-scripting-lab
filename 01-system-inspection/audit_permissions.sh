@@ -11,7 +11,7 @@ set -u
 TARGET_DIR="${1:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 
 if [ ! -d "$TARGET_DIR" ]; then
-    echo "[ERROR] Directory is missing." >&2
+    echo "[ERROR] Directory '$LOGS_DIR' does not exist." >&2
     exit 1
 fi
 
