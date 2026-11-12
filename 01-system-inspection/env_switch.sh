@@ -8,7 +8,7 @@
 
 # Check if environmental variable is present
 if [ -z "$1" ]; then
-    echo "[ERROR] Evironmental variable is missing." >&2
+    echo "[ERROR] Environmental variable is missing." >&2
     exit 1
 fi
 
