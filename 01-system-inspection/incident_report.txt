@@ -1,0 +1,7 @@
+3-2026-11-10 10:00:12 [ERROR] Database connection failed: timeout after 5000ms
+4:2026-11-10 10:00:15 [INFO] Healthcheck probe /healthz OK
+5-2026-11-10 10:00:22 [ERROR] Payment gateway returned status 502 Bad Gateway
+--
+8-2026-11-10 10:00:35 [ERROR] Failed to write to disk: /var/log/app.log full
+9:2026-11-10 10:00:40 [INFO] Healthcheck probe /healthz OK
+10-2026-11-10 10:00:45 [WARN] Disk space threshold exceeded: 85%
